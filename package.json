@@ -37,7 +37,8 @@
     "build": "react-scripts build",
     "test": "jest",
     "eject": "react-scripts eject",
-    "start:json": "json-server --watch parkingStorage.json"
+    "start:json": "json-server --watch parking.json",
+    "start:users": "json-server --watch users.json"
   },
   "eslintConfig": {
     "extends": [

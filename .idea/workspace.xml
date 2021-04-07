@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="899e613f-b474-468c-9b97-1a71b8f1b3a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/parking.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/presenters/actions-protocols/parkingActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/presenters/interfaces/parkingPresenter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/presenters/parking.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/Redux/actions/parkingActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/concretions/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/concretions/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/concretions/infrastructures.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/concretions/presenters.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/concretions/repositories.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/concretions/useCases.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/interfaces/interfaceActions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/interfaces/interfaceInfrastructure.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/interfaces/interfaceRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/interfaces/interfaceUseCases.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/carPlacesList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/motorbikePlacesList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/parkingStyles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/view-model/parking-view-model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/secondary/http/http.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/secondary/http/httpImpl.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/domain/entities/parkingDTO.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/domain/entities/userDTO.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/domain/usecases/parking_service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/domain/usecases/protocols/parkingServiceInterface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/domain/usecases/protocols/parkingVehicleRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/domain/usecases/protocols/userSessionRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/units/parking_service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/units/redux/parkingReducers.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkingStorage.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/secondary/Redux/actions/parkingActions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/secondary/Redux/actions/vehicleAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/Redux/actions/vehicleAction.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/secondary/Redux/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/Redux/reducers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/secondary/Redux/reducers/parkingReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/Redux/reducers/parkingReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/secondary/Redux/reducers/vehicleReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/Redux/reducers/vehicleReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/secondary/Redux/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/Redux/store/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/secondary/gateways/parking_redux_gateway.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/secondary/inMemory/parking_slot_in_memory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/secondary/inMemory/parkingVehicleRepositoryImpl.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/entities/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/domain/entities/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/entities/parking.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/domain/entities/parking.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/entities/parkingPlace/parkingPlace.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/domain/entities/parkingPlace/parkingPlace.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/entities/vehicle/vehicle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/domain/entities/vehicle/vehicle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/protocols/parkingVehicleRepository.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/usecases/parking_service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/web/assets/illustration.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/assets/illustration.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/web/components/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/components/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/web/components/header/header.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/components/header/header.styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/web/components/header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/components/header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/web/pages/home/home.style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/home/home.style.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/web/pages/home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/home/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/web/pages/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/web/pages/login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/login/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/web/pages/login/loginStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/login/loginStyle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/web/pages/parking/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/web/pages/register/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/register/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/web/routes/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/routes/routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/units/parking_service.spec.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1pNbfyrbN0jAjnEZhIQ8SCJmdX8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/parking/Adapters/primary" />
+      <recent name="$PROJECT_DIR$/src/parking/domain/usecases" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/parking/domain" />
+      <recent name="$PROJECT_DIR$/src/parking/domain/entities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.parking Reducer ">
+    <configuration name="Parking places handler (1)" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Parking places handler" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/tests/units/parking_redux_gateway.spec.ts" />
+      <test-names>
+        <test-name value="Parking places handler" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Parking places handler.should park a vehicle" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/tests/units/parking_service.spec.ts" />
+      <test-names>
+        <test-name value="Parking places handler" />
+        <test-name value="should park a vehicle" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="parking Reducer " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/test/units/redux/parkingReducers.spec.ts" />
+      <test-names>
+        <test-name value="parking Reducer " />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.parking Reducer " />
+        <item itemvalue="Jest.Parking places handler.should park a vehicle" />
+        <item itemvalue="Jest.Parking places handler" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="899e613f-b474-468c-9b97-1a71b8f1b3a9" name="Default Changelist" comment="" />
+      <created>1615026602674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615026602674</updated>
+      <workItem from="1615026607236" duration="150000" />
+      <workItem from="1615026788843" duration="1182000" />
+      <workItem from="1615109746066" duration="400000" />
+      <workItem from="1615191819150" duration="4622000" />
+      <workItem from="1615235270973" duration="4872000" />
+      <workItem from="1615280213157" duration="135000" />
+      <workItem from="1615280362101" duration="1338000" />
+      <workItem from="1615282677282" duration="8341000" />
+      <workItem from="1615301017037" duration="2917000" />
+      <workItem from="1615365555856" duration="960000" />
+      <workItem from="1615410772068" duration="698000" />
+      <workItem from="1615449663742" duration="3000" />
+      <workItem from="1615797954484" duration="5123000" />
+      <workItem from="1615885079197" duration="6987000" />
+      <workItem from="1615904510004" duration="594000" />
+      <workItem from="1615905938608" duration="2763000" />
+      <workItem from="1616013182152" duration="1511000" />
+      <workItem from="1616401889262" duration="20821000" />
+      <workItem from="1616839496396" duration="23038000" />
+      <workItem from="1617003550283" duration="3206000" />
+      <workItem from="1617456446645" duration="5586000" />
+      <workItem from="1617463348212" duration="49770000" />
+      <workItem from="1617780011966" duration="654000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

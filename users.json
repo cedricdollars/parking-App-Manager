@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullname": "cédric dollars",
+      "username": "cedricdollars@gmail.com",
+      "password": "cedricdollars"
+    },
+    {
+      "id": 2,
+      "fullname": "Dorian Michael",
+      "username": "dorianMike@gmail.com",
+      "password": "dorian1234"
+    }
+  ]
+}
