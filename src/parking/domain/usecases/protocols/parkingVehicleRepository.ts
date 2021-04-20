@@ -1,7 +1,7 @@
 import {ParkingParams} from "../../entities/parkingDTO";
 
-export interface ParkingPlaceVehicleRepository {
-    parkVehicleInOnePlace(params: ParkingParams):Promise<boolean>
+export interface ParkingVehicleRepository {
+    //parkVehicleInOnePlace():Promise<boolean>
     getParkingPlaces():Promise<ParkingParams[]>
 
 }

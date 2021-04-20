@@ -1,7 +1,5 @@
 export interface ParkingPlace {
     no_place: number
-    isFree: boolean
-    parkingPlaceType: ParkingPlaceType
+    occupied: boolean
+    place_type: string
 }
-
-export type ParkingPlaceType = "carPlace" | "motorbikePlace" | "handicapedPlace"

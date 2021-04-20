@@ -2,67 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="899e613f-b474-468c-9b97-1a71b8f1b3a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/parking.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/presenters/actions-protocols/parkingActions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/presenters/interfaces/parkingPresenter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/presenters/parking.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/Redux/actions/parkingActions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/concretions/actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/concretions/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/concretions/infrastructures.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/concretions/presenters.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/concretions/repositories.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/concretions/useCases.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/interfaces/interfaceActions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/interfaces/interfaceInfrastructure.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/interfaces/interfaceRepository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/interfaces/interfaceUseCases.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/carPlacesList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/motorbikePlacesList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/parkingStyles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/view-model/parking-view-model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/secondary/http/http.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/secondary/http/httpImpl.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/domain/entities/parkingDTO.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/domain/entities/userDTO.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/domain/usecases/parking_service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/domain/usecases/protocols/parkingServiceInterface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/domain/usecases/protocols/parkingVehicleRepository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parking/domain/usecases/protocols/userSessionRepository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/units/parking_service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/units/redux/parkingReducers.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkingStorage.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/secondary/Redux/actions/parkingActions.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/secondary/Redux/actions/vehicleAction.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/Redux/actions/vehicleAction.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/secondary/Redux/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/Redux/reducers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/secondary/Redux/reducers/parkingReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/Redux/reducers/parkingReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/secondary/Redux/reducers/vehicleReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/Redux/reducers/vehicleReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/secondary/Redux/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/Redux/store/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/secondary/gateways/parking_redux_gateway.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/secondary/inMemory/parking_slot_in_memory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/secondary/inMemory/parkingVehicleRepositoryImpl.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/entities/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/domain/entities/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/entities/parking.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/domain/entities/parking.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/entities/parkingPlace/parkingPlace.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/domain/entities/parkingPlace/parkingPlace.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/entities/vehicle/vehicle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/domain/entities/vehicle/vehicle.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/protocols/parkingVehicleRepository.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/usecases/parking_service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/web/assets/illustration.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/assets/illustration.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/web/components/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/components/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/web/components/header/header.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/components/header/header.styles.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/web/components/header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/components/header/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/web/pages/home/home.style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/home/home.style.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/web/pages/home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/home/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/web/pages/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/web/pages/login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/login/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/web/pages/login/loginStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/login/loginStyle.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/web/pages/parking/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/web/pages/register/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/register/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/web/routes/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/routes/routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/units/parking_service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking.json" beforeDir="false" afterPath="$PROJECT_DIR$/parking.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/primary/presenters/actions-protocols/parkingActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/presenters/actions-protocols/parkingActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/primary/presenters/interfaces/parkingPresenter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/presenters/interfaces/parkingPresenter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/primary/presenters/parking.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/presenters/parking.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/primary/web/Redux/actions/parkingActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/Redux/actions/parkingActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/primary/web/Redux/reducers/parkingReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/Redux/reducers/parkingReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/primary/web/components/header/header.styles.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/components/header/header.styles.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/interfaces/interfaceRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/dependency-injection/interfaces/interfaceRepository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/carPlacesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/carPlacesList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/motorbikePlacesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/motorbikePlacesList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/parkingStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/parkingStyles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/primary/web/view-model/parking-view-model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/view-model/parking-view-model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/secondary/inMemory/parkingVehicleRepositoryImpl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/secondary/inMemory/parkingVehicleRepositoryImpl.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/domain/entities/parkingDTO.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/domain/entities/parkingDTO.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/domain/entities/parkingPlace/parkingPlace.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/domain/entities/parkingPlace/parkingPlace.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/domain/usecases/parking_service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/domain/usecases/parking_service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/domain/usecases/protocols/parkingServiceInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/domain/usecases/protocols/parkingServiceInterface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parking/domain/usecases/protocols/parkingVehicleRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/domain/usecases/protocols/parkingVehicleRepository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +86,17 @@
     </key>
   </component>
   <component name="RunManager" selected="Jest.parking Reducer ">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Parking places handler (1)" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -212,7 +184,8 @@
       <workItem from="1617003550283" duration="3206000" />
       <workItem from="1617456446645" duration="5586000" />
       <workItem from="1617463348212" duration="49770000" />
-      <workItem from="1617780011966" duration="654000" />
+      <workItem from="1617780011966" duration="16151000" />
+      <workItem from="1618857620529" duration="26273000" />
     </task>
     <servers />
   </component>

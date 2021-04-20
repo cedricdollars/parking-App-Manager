@@ -12,10 +12,6 @@ class ParkingPresenter implements IParkingPresenter {
     ) {
     }
 
-    async parkVehicleToPlace(params: ParkingParams): Promise<boolean> {
-        const isParked = await this.parkingService.parkVehicleInOnePlace(params)
-        return this.actions.parkVehicleToPlace(isParked)
-    }
     async getParkingPlaces(): Promise<ParkingAction> {
        const parkingPlaces:Array<ParkingParams> = await this.parkingService.getParkingPlaces()
         return this.actions.getParkingPlaces(parkingPlaces)

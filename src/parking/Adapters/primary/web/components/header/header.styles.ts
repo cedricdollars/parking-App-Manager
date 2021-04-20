@@ -8,6 +8,7 @@ export const Navbar = styled.div`
     color: black;
     width: 100%;
     height: 70px;
+  
     border-bottom: 1px solid #000;
 `
 export const NavbarElements = styled.nav`

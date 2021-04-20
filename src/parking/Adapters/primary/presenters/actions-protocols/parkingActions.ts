@@ -1,14 +1,14 @@
-import {ParkingPlace, Vehicle} from "../../../../domain/entities";
-import {ParkingParams} from "../../../../domain/entities/parkingDTO";
+import {ParkingPlace} from "../../../../domain/entities";
+
 
 export interface Parking {
     parkingPlaces: ParkingPlace[]
 }
 export interface ParkingAction{
     type: string
-    payload: any
+    payload?: any
 }
 export interface ParkingActions {
     getParkingPlaces(parkingEntity: Array<ParkingPlace>):ParkingAction
-    parkVehicleToPlace(params: ParkingParams):ParkingAction
+    parkVehicleToPlace(id:number):ParkingAction
 }

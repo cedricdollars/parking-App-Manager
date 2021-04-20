@@ -1,8 +1,8 @@
-import {ParkingPlaceVehicleRepository} from "../../../domain/usecases/protocols/parkingVehicleRepository";
+import {ParkingVehicleRepository} from "../../../domain/usecases/protocols/parkingVehicleRepository";
 import {Http} from "../http/http";
 import {ParkingDTO, ParkingParams} from "../../../domain/entities/parkingDTO";
 
-export class ParkingRepository implements ParkingPlaceVehicleRepository {
+export class ParkingRepository implements ParkingVehicleRepository {
 
     constructor(private http: Http) {}
 
@@ -15,19 +15,6 @@ export class ParkingRepository implements ParkingPlaceVehicleRepository {
             return response.parking.map((data:ParkingParams) => new ParkingDTO(data))
         }
         return response
-    }
-
-    parkVehicleInOnePlace(params: ParkingParams): Promise<boolean> {
-        return this.http.execute({
-            method: "POST",
-            url: "http://localhost:3000/parking/park",
-            headers:{
-                'Content-Type': 'application/json'
-            },
-            body: {
-                vehicle: params.vehicle
-            }
-        })
     }
 
 }

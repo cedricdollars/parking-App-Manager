@@ -1,30 +1,28 @@
-import React from 'react'
-import {Button, ParkingArea, Content, ParkingPlace} from "./parkingStyles";
-import {ParkingParams} from "../../../../../domain/entities/parkingDTO";
+import React, {useState} from 'react'
+import {Button, ParkingArea, Content, ParkingPlace, NoPlace, Img} from "./parkingStyles";
 import {IParkingVM} from "../../view-model/parking-view-model";
-import {useDispatch} from "react-redux";
-//import di from '../../dependency-injection/concretions'
+import car from '../../assets/car.png'
 
 
 interface IProps {
-    parkVehicle(params: ParkingParams):void
+    parkVehicle(no_place: number):void
     places:Array<IParkingVM>
 }
 
 
 const CarPlacesList :React.FC<IProps> = ({places,parkVehicle}) => {
-    const dispatch = useDispatch()
     const handleClickParkVehicle = () => {
-
+            parkVehicle(5)
     }
-
     return (
         <>
             {places.length > 0 && (
                <Content>
                    {places.map(place => (
                        <ParkingArea key={place.no_place}>
-                           <ParkingPlace>{place.no_place}</ParkingPlace>
+                           <NoPlace>{place.no_place}</NoPlace>
+
+                           <ParkingPlace>{place.occupied}</ParkingPlace>
                            <Button onClick={handleClickParkVehicle}>Stationner</Button>
                        </ParkingArea>
                    ) )}
