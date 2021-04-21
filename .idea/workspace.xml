@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="899e613f-b474-468c-9b97-1a71b8f1b3a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/components/modal/dialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/components/modal/dialogStyle.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/parking/Adapters/primary/web/Redux/reducers/parkingReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/Redux/reducers/parkingReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parking.json" beforeDir="false" afterPath="$PROJECT_DIR$/parking.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/carPlacesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/carPlacesList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/motorbikePlacesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/parking/Adapters/primary/web/pages/parking/motorbikePlacesList.tsx" afterDir="false" />
@@ -62,11 +64,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/parking/Adapters/primary/web/components/modal" />
       <recent name="$PROJECT_DIR$/src/parking/Adapters/primary" />
       <recent name="$PROJECT_DIR$/src/parking/domain/usecases" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/parking/domain" />
-      <recent name="$PROJECT_DIR$/src/parking/domain/entities" />
     </key>
   </component>
   <component name="RunManager" selected="Jest.parking Reducer ">
@@ -169,7 +171,7 @@
       <workItem from="1617456446645" duration="5586000" />
       <workItem from="1617463348212" duration="49770000" />
       <workItem from="1617780011966" duration="16151000" />
-      <workItem from="1618857620529" duration="30984000" />
+      <workItem from="1618857620529" duration="38475000" />
     </task>
     <servers />
   </component>

@@ -26,7 +26,7 @@ const MotorbikePlacesList : React.FC<Props> = ({places}) => {
                                 {place.occupied ? (
                                     <>
                                         <Img src={motorbike} alt="motorbike" />
-                                        <MessageText>Occupée</MessageText>
+
                                     </>
 
                                 ): (

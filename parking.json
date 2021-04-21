@@ -1,62 +1,62 @@
 {
     "parking": [
       {
-        "no_place": 5,
+        "no_place": 100,
         "occupied": false,
         "place_type": "car"
       },
       {
-        "no_place": 7,
+        "no_place": 101,
         "occupied": false,
         "place_type": "car"
       },
       {
-        "no_place": 9,
+        "no_place": 102,
         "occupied": false,
         "place_type": "car"
       },
       {
-        "no_place": 11,
+        "no_place": 103,
         "occupied": false,
         "place_type": "motorbike"
       },
       {
-        "no_place": 13,
+        "no_place": 104,
         "occupied": false,
         "place_type": "motorbike"
       },
       {
-        "no_place": 15,
-        "occupied": false,
+        "no_place": 105,
+        "occupied": true,
         "place_type": "motorbike"
       },
       {
-        "no_place": 10,
+        "no_place": 106,
         "occupied": false,
         "place_type": "car"
       },
       {
-        "no_place": 20,
+        "no_place": 120,
         "occupied": false,
         "place_type": "motorbike"
       },
       {
-        "no_place": 30,
+        "no_place": 121,
         "occupied": false,
         "place_type": "car"
       },
       {
-        "no_place": 40,
-        "occupied": false,
+        "no_place": 122,
+        "occupied": true,
         "place_type": "motorbike"
       },
       {
-        "no_place": 50,
+        "no_place": 123,
         "occupied": false,
         "place_type": "car"
       },
       {
-        "no_place": 60,
+        "no_place": 124,
         "occupied": false,
         "place_type": "motorbike"
       }

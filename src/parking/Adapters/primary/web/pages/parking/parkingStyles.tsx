@@ -8,12 +8,13 @@ export const Content = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 5rem;
 `
 export const ParkContainer = styled.div`
     border: 1px solid black;
     height: 100%;
     background: #051937;
-    
+    position: relative;
 `
 export const Title = styled.h1`
     color: #fff;
@@ -25,13 +26,15 @@ export const ParkingArea = styled.div`
     margin: 50px 10px;
     width: 280px;
     height: 400px;
-    border-left: 2px dashed #fff;
-    border-right: 2px dashed #fff;
- 
+    border-left: 2px dashed gray;
+    border-right: 2px dashed gray;
     display: flex;
     position: relative;
     flex-direction: column;
     justify-content: center;
+    &:hover {
+        cursor: pointer;
+    }
 `
 export const ParkingPlace = styled.p`
     text-align: center;
@@ -52,24 +55,21 @@ export const Button = styled.button`
     font-size: 1em;
     margin: 1em;
     padding: 0.25em 1em;
-    border-radius: 3px;
+    background: #051937;
+    border: 1px #98a0e0 solid;
     position: absolute;
     bottom: -30px;
     left: 40%;
     transform: translate(-50%, -50%);
     font-family: Montserrat;
-    background: transparent;
-    border: 1px solid white;
-    color: #fff;
+    color: #98a0e0;
     &:hover {
         cursor: pointer;
-        background: #fff;
-        color: #f7d63a;
     }
 `
 export const Line = styled.hr`
     width: 100%;
-    color: #fff;
+    color: gray;
 `
 export const MessageText = styled.strong`
     color: red;
@@ -89,6 +89,29 @@ export const NoPlace = styled.p`
 `
 export const Img = styled.img`
     width: 120px;
-    margin-left: 35px;
- 
+    margin-left: 75px;
+    transition: 500ms all ease-in-out
+`
+export const Select = styled.select`
+    background: #051937;
+    color: #98a0e0;
+    padding: 10px;
+    font-size: 17px;
+    font-family: "Montserrat";
+    border: 1px #98a0e0 solid;
+    border-radius: 10px;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    position: absolute;
+    right: 10px;
+    outline: none;
+    
+     option {
+         color: black;
+         background: white;
+         font-weight: small;
+         display: flex;
+         min-height: 20px;
+         padding: 0px 5px 5px;
+       }
 `

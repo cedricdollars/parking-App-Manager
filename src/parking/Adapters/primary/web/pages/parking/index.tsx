@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import Header from "../../components/header";
 import { useDispatch, useSelector } from "react-redux";
-import {Container, Line, ParkContainer, Title} from './parkingStyles'
+import {Container, Line, ParkContainer, Title, Select} from './parkingStyles'
 import {RootState } from '../../Redux/store/store'
 import di from '../../dependency-injection/concretions'
 import CarPlacesList from "./carPlacesList";
@@ -44,7 +44,11 @@ const ParkingHome: React.FC = () => {
                 <Header/>
                 <Container>
                     <ParkContainer>
-                        <Title>Sélectionner votre place </Title>
+                        <Select>
+                            <option value="1">1er niveau</option>
+                            <option value="2">2e niveau</option>
+                            <option value="3">3e niveau</option>
+                        </Select>
                          <CarPlacesList places={placesListCar}/>
                          <Line />
                          <MotorbikePlacesList places={placesListMoto} />
