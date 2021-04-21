@@ -20,7 +20,7 @@ export const parkingReducer = (state: ParkingState = initialState, action: Parki
         case PARK_VEHICLE:
             return {
                 parkingPlaces: state.parkingPlaces.map((place) =>
-                    (place.occupied === action.payload) ? {...place, occupied: true}: place)
+                    (place.no_place === action.payload) ? {...place, occupied: !place.occupied}: place)
             }
         default:
             return state

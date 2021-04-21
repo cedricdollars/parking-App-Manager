@@ -23,11 +23,11 @@ export const Title = styled.h1`
 `
 export const ParkingArea = styled.div`
     margin: 50px 10px;
-    width: 200px;
+    width: 280px;
     height: 400px;
     border-left: 2px dashed #fff;
     border-right: 2px dashed #fff;
-    border-top: 2px solid #fff;
+ 
     display: flex;
     position: relative;
     flex-direction: column;
@@ -68,19 +68,27 @@ export const Button = styled.button`
     }
 `
 export const Line = styled.hr`
-    width: 80%;
+    width: 100%;
     color: #fff;
 `
-export const NoPlace = styled.p`
-    color: #fff;
+export const MessageText = styled.strong`
+    color: red;
     font-family: "Montserrat";
     position: absolute;
-    top: -50px;
+    bottom: -30px;
+    display: inline;
     left: 50%;
     font-size: 18px;
     transform: translate(-50%, -50%);
 `
+export const NoPlace = styled.p`
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    text-align: center;
+`
 export const Img = styled.img`
     width: 120px;
     margin-left: 35px;
+ 
 `
